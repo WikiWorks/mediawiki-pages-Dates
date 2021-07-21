@@ -1,0 +1,25 @@
+{{SampleDateTemplate
+|Creation Present=No
+|Creation Date=January 1, 1990
+|Creation Circa=No
+|Creation Concurrence=Exact
+|Creation Questionable=No
+|Creation HasEndDate=Yes
+|Creation Present End=Yes
+|Creation Date End=January 2, 1991
+|Creation Circa End=No
+|Creation Concurrence End=Exact
+|Creation Questionable End=No
+|Publication Present=No
+|Publication Date=February 1, 1998
+|Publication Circa=No
+|Publication Concurrence=Exact
+|Publication Questionable=No
+|Publication HasEndDate=Yes
+|Publication Present End=No
+|Publication Date End=March 1, 1999
+|Publication Circa End=No
+|Publication Concurrence End=Exact
+|Publication Questionable End=No
+}}
+[[Category:Mediawiki-pages-DateStructure]]

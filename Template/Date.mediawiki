@@ -1,0 +1,32 @@
+<includeonly><!--
+------><!--
+------>{{DateFormatDate
+        |Present={{{Present|}}}
+        |Date={{{Date|}}}
+        |Circa={{{Circa}}}
+        |Concurrence={{{Concurrence|Exact}}}
+        |Questionable={{{Questionable|}}}
+       }}<!--
+------>{{#if:{{{EndDate|}}}|<!--
+------>&nbsp;– <!--
+------>{{DateFormatDate
+        |Present={{{EndPresent|}}}
+        |Date={{{EndDate|}}}
+        |Circa={{{EndCirca|}}}
+        |Concurrence={{{EndConcurrence|Exact}}}
+        |Questionable={{{EndQuestionable|}}}
+       }}<!--
+------>}}<!--
+------>{{#subobject:{{{1}}}
+        |Present={{{Present|}}}
+        |Date={{#ifeq:{{{Present|}}}|Yes|{{#time: F j, Y }}|{{{Date|}}}}}
+        |Circa={{{Circa|}}}
+        |Concurrence={{{Concurrence|}}}
+        |Questionable={{{Questionable|}}}
+        |EndPresent={{#if:{{{EndPresent|}}}|{{{EndPresent}}}|{{{Present|}}}}}
+        |EndDate={{#ifeq:{{{EndPresent|}}}|Yes|{{#time: F j, Y }}|{{#if:{{{EndDate|}}}|{{{EndDate}}}|{{{Date|}}}}}}}
+        |EndCirca={{#if:{{{EndCirca|}}}|{{{EndCirca}}}|{{{Circa}}}}}
+        |EndConcurrence={{#if:{{{EndConcurrence|}}}|{{{EndConcurrence}}}|{{{Concurrence|Exact}}}}}
+        |EndQuestionable={{#if:{{{EndQuestionable|}}}|{{{EndQuestionable}}}|{{{Questionable|}}}}}
+       }}<!--
+--></includeonly><noinclude>[[Category:Mediawiki-pages-DateStructure]]</noinclude>

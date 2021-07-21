@@ -1,0 +1,49 @@
+<includeonly>
+<div class="dates-input-block">
+<div class="dates-input-block--date dates-input-block--start">
+<div id="{{{Prefix|}}}_start_date">
+'''Start date:'''
+</div>
+{{{!}}class="wikitable"
+{{!}} Present
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> Present|input type=checkbox|values=Yes,No|default=No}}}</nowiki>
+{{!}}- id="field-date-{{{Prefix|}}}"
+{{!}} Date
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> Date|input type=date}}}</nowiki>
+{{!}}- id="field-circa-{{{Prefix|}}}"
+{{!}} Circa
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> Circa|input type=checkbox|values=Yes,No|default=No}}}</nowiki>
+{{!}}- id="field-concurrence-{{{Prefix|}}}"
+{{!}} Concurrence
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> Concurrence|input type=dropdown|values=Exact,Before,After|default=Exact|mandatory}}}</nowiki>
+{{!}}- id="field-questionable-{{{Prefix|}}}"
+{{!}} Questionable
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> Questionable|input type=checkbox|values=Yes,No|default=No}}}</nowiki>
+{{!}}- class="has-end-date" id="field-range-{{{Prefix|}}}" <!-- We want it to be skinnable, primarily for hiding -->
+{{!}} Enter a range
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> HasEndDate|input type=checkbox|values=Yes,No|default=No|show on select=Yes=></nowiki>{{{Prefix|}}}<nowiki>_end_date;Yes=></nowiki>{{{Prefix|}}}<nowiki>_start_date}}}</nowiki>
+{{!}}-
+{{!}}}
+</div>
+<div class="dates-input-block--date dates-input-block--end">
+<div id="{{{Prefix|}}}_end_date">
+'''End Date:'''
+{{{!}}class="wikitable"
+{{!}} Present
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> Present End|input type=checkbox|values=Yes,No|default=No}}}</nowiki>
+{{!}}- id="field-date-end-{{{Prefix|}}}"
+{{!}} Date
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> Date End|input type=date}}}</nowiki>
+{{!}}- id="field-circa-end-{{{Prefix|}}}"
+{{!}} Circa
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> Circa End|input type=checkbox|values=Yes,No|default=No}}}</nowiki>
+{{!}}- id="field-concurrence-end-{{{Prefix|}}}"
+{{!}} Concurrence
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> Concurrence End|input type=dropdown|values=Exact,Before,After|default=Exact|mandatory}}}</nowiki>
+{{!}}- id="field-questionable-end-{{{Prefix|}}}"
+{{!}} Questionable
+{{!}} <nowiki>{{{field|</nowiki>{{{Prefix|}}}<nowiki> Questionable End|input type=checkbox|values=Yes,No|default=No}}}</nowiki>
+{{!}}-
+{{!}}}
+</div></div></div>
+</includeonly><noinclude>[[Category:Mediawiki-pages-DateStructure]]</noinclude>

@@ -1,0 +1,93 @@
+{
+    "publisher": "Ike Hecht",
+    "author": "Ike Hecht",
+    "language": "en",
+    "url": "https:\/\/github.com\/NationalGalleryOfArt\/mediawiki-pages-Dates",
+    "packages": {
+        "DateStructure": {
+            "globalID": "gov.nga.DateStructure",
+            "description": null,
+            "version": "1",
+            "pages": [
+                {
+                    "name": "Date",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Form%2FDate.mediawiki"
+                },
+                {
+                    "name": "SampleDateForm",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Form%2FSampleDateForm.mediawiki"
+                },
+                {
+                    "name": "Circa",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Property%2FCirca.mediawiki"
+                },
+                {
+                    "name": "Concurrence",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Property%2FConcurrence.mediawiki"
+                },
+                {
+                    "name": "EndCirca",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Property%2FEndCirca.mediawiki"
+                },
+                {
+                    "name": "EndConcurrence",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Property%2FEndConcurrence.mediawiki"
+                },
+                {
+                    "name": "EndDate",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Property%2FEndDate.mediawiki"
+                },
+	            {
+		            "name": "Present",
+		            "namespace": "SMW_NS_PROPERTY",
+		            "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Property%2FPresent.mediawiki"
+	            },
+	            {
+		            "name": "EndPresent",
+		            "namespace": "SMW_NS_PROPERTY",
+		            "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Property%2FEndPresent.mediawiki"
+	            },
+                {
+                    "name": "EndQuestionable",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Property%2FEndQuestionable.mediawiki"
+                },
+                {
+                    "name": "Questionable",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Property%2FQuestionable.mediawiki"
+                },
+                {
+                    "name": "SampleDate1",
+                    "namespace": "NS_MAIN",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Main%2FSampleDate1.mediawiki"
+                },
+                {
+                    "name": "Date",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Template%2FDate.mediawiki"
+                },
+                {
+                    "name": "DateFormatDate",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Template%2FDateFormatDate.mediawiki"
+                },
+                {
+                    "name": "SampleDateTemplate",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-Dates\/main\/Template%2FSampleDateTemplate.mediawiki"
+                }
+            ],
+            "requiredExtensions": [
+                "PageForms"
+            ]
+        }
+    }
+}

@@ -1,0 +1,33 @@
+<includeonly>
+
+; Creation date
+: {{Date
+  |Creation
+  |Present={{{Creation Present|}}}
+  |Date={{{Creation Date|}}}
+  |Circa={{{Creation Circa|}}}
+  |Concurrence={{{Creation Concurrence|}}}
+  |Questionable={{{Creation Questionable|}}}
+  |EndPresent={{{Creation Present End|}}}
+  |EndDate={{{Creation Date End|}}}
+  |EndCirca={{{Creation Circa End|}}}
+  |EndConcurrence={{{Creation Concurrence End|}}}
+  |EndQuestionable={{{Creation Questionable End|}}}
+}}
+; Publication date
+: {{Date
+  |Publication
+  |Present={{{Publication Present|}}}
+  |Date={{{Publication Date|}}}
+  |Circa={{{Publication Circa|}}}
+  |Concurrence={{{Publication Concurrence|}}}
+  |Questionable={{{Publication Questionable|}}}
+  |EndPresent={{{Publication Present End|}}}
+  |EndDate={{{Publication Date End|}}}
+  |EndCirca={{{Publication Circa End|}}}
+  |EndConcurrence={{{Publication Concurrence End|}}}
+  |EndQuestionable={{{Publication Questionable End|}}}
+}}
+
+{{#default_form:SampleDateForm}}
+</includeonly><noinclude>[[Category:Mediawiki-pages-DateStructure]]</noinclude>

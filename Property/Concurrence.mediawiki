@@ -1,0 +1,7 @@
+[[has type::Text]]
+
+* [[Allows value::Exact]]
+* [[Allows value::Before]]
+* [[Allows value::After]]
+
+[[Category:Mediawiki-pages-DateStructure]]

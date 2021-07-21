@@ -1,0 +1,6 @@
+<includeonly><!--
+-->{{#ifeq:{{{Concurrence|}}}|Exact||{{#if:{{{Concurrence|}}}|{{{Concurrence}}}&nbsp;}}}}<!--
+-->{{#ifeq:{{{Circa|}}}|Yes|c.&nbsp;}}<!--
+-->{{#ifeq:{{{Present|}}}|Yes|present|{{{Date|}}}}}<!--
+-->{{#ifeq:{{{Questionable|}}}|Yes|?}}<!--
+--></includeonly><noinclude>[[Category:Mediawiki-pages-DateStructure]]</noinclude>

@@ -1,0 +1,18 @@
+<includeonly>
+{{{for template|SampleDateTemplate}}}
+
+Demo form for custom Dates inputs:
+
+{|
+| Creation date
+| {{Form:Date|Prefix=Creation}}
+|-
+| Publication date
+| {{Form:Date|Prefix=Publication}}
+|-
+|}
+
+{{{end template}}}
+
+{{{standard input|save}}}
+</includeonly><noinclude>[[Category:Mediawiki-pages-DateStructure]]</noinclude>

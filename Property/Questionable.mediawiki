@@ -1,0 +1,7 @@
+This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::Yes]]
+* [[Allows value::No]]
+
+[[Category:Mediawiki-pages-DateStructure]]

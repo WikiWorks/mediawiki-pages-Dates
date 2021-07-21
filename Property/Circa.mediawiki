@@ -1,0 +1,6 @@
+[[has type::Text]]
+
+* [[Allows value::Yes]]
+* [[Allows value::No]]
+
+[[Category:Mediawiki-pages-DateStructure]]
