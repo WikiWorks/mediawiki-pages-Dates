@@ -5,7 +5,7 @@
     "url": "https:\/\/github.com\/WikiWorks\/mediawiki-pages-Dates",
     "packages": {
         "DateStructure": {
-            "globalID": "gov.nga.DateStructure",
+            "globalID": "com.wikiworks.DateStructure",
             "description": null,
             "version": "1",
             "pages": [
